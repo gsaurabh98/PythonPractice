@@ -14,6 +14,7 @@ class Myclass(object):
 
     def getFirstName(self):
         return self.__firstName
+    # test
 
     def __init__(self,firstName,lastName):
         print 'fistname is:', self.firstName
