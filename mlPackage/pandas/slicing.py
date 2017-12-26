@@ -11,3 +11,5 @@ print (df.head(2))
 
 #df.tail(args) means printing first agrs value
 print (df.tail(2))
+
+print df[['days','visitors']]
