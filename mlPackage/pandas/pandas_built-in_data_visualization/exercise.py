@@ -33,6 +33,7 @@ print df3.head()
 
 # print the legend outside
 fig = plt.figure()
+print df3.ix[0:30]
 df3.ix[0:30].plot.area(alpha=0.4)
 plt.legend(loc= 'center left', bbox_to_anchor = (1.0,0.5))
 plt.show()

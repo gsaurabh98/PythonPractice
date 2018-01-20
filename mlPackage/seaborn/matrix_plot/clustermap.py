@@ -4,7 +4,7 @@ import seaborn as sns
 tips = sns.load_dataset('tips')
 flights = sns.load_dataset('flights')
 
-# cluster map will build the graph baserd on clustering,
+# cluster map will build the graph based on clustering,
 #means similar groups are close to each other.
 # we can put one more argument called: standard_scale = 1, means scaling will go till 1.
 # tp = tips.corr()
